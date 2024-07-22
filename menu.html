@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-style.css">
+</head>
+<body>
+    <header>
+      <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-stream navbar-toggler-icon"></i>
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="http://127.0.0.1:3000/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#explore-food">Explore Foods</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#login">Log In</a>
+                  </li>
+                  <li><a href="http://127.0.0.1:3000/contact.html"><button class="main-btn">Contact Us</button></li></a>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>    
+
+    <!-- top banner -->
+     <section id="home">
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <h1>Good food choice are good investment.</h1>
+                        <p>Welcome to our Website Hope you all get Best Experience on our Website.</p>
+                        <div class="mt-4">
+                            <button class="main-btn">Order Now <i class="fas fa-shopping-cart ps-3"></i></button>
+                            <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Order Now <i class="fas fa-angle-right ps-3"></i></button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+      <section id="counter">
+        <section class="counter-section">
+            <div class="container">
+                <div class="row test-center">
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count1"></span>
+                        </h2>
+                        <p>2097+ SAVINGS</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count2"></span>
+                        </h2>
+                        <p>3418+ PHOTOS</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count2"></span>
+                        </h2>
+                        <p>5425+ ROCKETS</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count4"></span>
+                        </h2>
+                        <p>2905+ GLOBS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </section>
+<!-- 
+      <section id="about">
+        <div class="about-section wrapper">
+          <div class="container">
+            <div class="row align-item-center">
+              <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+                <div class="card border-0">
+                  <img src="images/img/img-1.png" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-12 text-sec">
+                <h2>We pride ourself on making real food from the best ingredients.</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt harum sint similique ipsum dicta temporibus iste, deserunt, eius amet porro hic.</p>
+                <button class="main-btn mt-4">Learn more</button>
+
+              </div>
+            </div>
+          </div>
+          <div class="container food-type">
+            <div class="row align-item-center">
+              <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+                <h2>We make everything by hand with the best possible ingredients.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, culpa deleniti. Labore ipsam quos id earum ut dolore harum sit eius consequatur sequi.
+                  Dolor sit amet consectetur adipisicing elit. Vero omnis ea voluptatem amet saepe quisquam iusto. Tempore nam quis laudantium laboriosam nemo.
+                </p>
+                <button class="main-btn mt-4">Learn More</button>
+              </div>
+              <div class="col-lg-7 col-md-12">
+                <div class="card border-0">
+                  <img src="images/img/img-2.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+
+      <!-- Menu -->
+      <section id="explore-food">
+        <div>
+          
+          <div class="explore-food wrapper">
+            <center><h1>OUR MENU</h1>
+              <p>Explore our wide range of delicious food and beverages</p></center>
+            <form action="contact.html">
+            <div class="container">
+              <div class="row align-item-center">
+                <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+                
+                  <div class="text-center">
+                  </div>
+                </div>
+              </div>
+              <div class="row pt-5">
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                  <div class="card">
+                    <img src="img-3.jpg" class="img-fluid">
+                    <div class="pt-3">
+                      <h4>Rainbow Vegetable Sandwich</h4>
+                      <p>Time: 15-30 Minuites | Serves: 1</p>
+                      <span>$10.50 <del>$11.50</del></span>
+                      <button class="mt-4 main-btn">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                  <div class="card">
+                    <img src="img-5.jpg" class="img-fluid">
+                    <div class="pt-3">
+                      <h4>Rasberry Stuffed French Toast</h4>
+                      <p>Time: 15-30 Minuites | Serves: 1</p>
+                      <span>$12.50 <del>$15.50</del></span>
+                      <button class="mt-4 main-btn">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                  <div class="card">
+                    <img src="img-4.jpg" class="img-fluid">
+                    <div class="pt-3">
+                      <h4>Vegetarian Burger</h4>
+                      <p>Time: 15-30 Minuites | Serves: 1</p>
+                      <span>$17.50 <del>$20.50</del></span>
+                      <button class="mt-4 main-btn">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                  <div class="card">
+                    <img src="coffee.jpg" class="img-fluid">
+                    <div class="pt-3">
+                      <h4>Capachino </h4>
+                      <p>Time: 10-15 Minuites | Serves: 1</p>
+                      <span>$7.50 <del>$10.50</del></span>
+                      <button class="mt-4 main-btn">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                  <div class="card">
+                    <img src="tea.jpg" class="img-fluid">
+                    <div class="pt-3">
+                      <h4>Red Label Tea</h4>
+                      <p>Time: 10-15 Minuites | Serves: 1</p>
+                      <span>$4.50 <del>$6.50</del></span>
+                      <button class="mt-4 main-btn">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                  <div class="card">
+                    <img src="sandwitch.jpg" class="img-fluid">
+                    <div class="pt-3">
+                      <h4>Cheese Sandwich With Orange Juice</h4>
+                      <p>Time: 15-30 Minuites | Serves: 1</p>
+                      <span>$25.50 <del>$30.50</del></span>
+                      <button class="mt-4 main-btn">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                  <div class="card">
+                    <img src="croson.jpg" class="img-fluid">
+                    <div class="pt-3">
+                      <h4>Croson</h4>
+                      <p>Time: 7-10 Minuites | Serves: 1</p>
+                      <span>$9.50 <del>$11.50</del></span>
+                      <button class="mt-4 main-btn">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                  <div class="card">
+                    <img src="icecream.jpg" class="img-fluid">
+                    <div class="pt-3">
+                      <h4>Strawberry Ice Cream</h4>
+                      <p>Time: 5-7 Minuites | Serves: 1</p>
+                      <span>$4.50 <del>$6.50</del></span>
+                      <button class="mt-4 main-btn">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                  <div class="card">
+                    <img src="smoothy.jpg" class="img-fluid">
+                    <div class="pt-3">
+                      <h4>Strawberry Smoothy</h4>
+                      <p>Time: 15-30 Minuites | Serves: 1</p>
+                      <span>$15.50 <del>$20.50</del></span>
+                      <button class="mt-4 main-btn">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                  <div class="card">
+                    <img src="pizza.jpg" class="img-fluid">
+                    <div class="pt-3">
+                      <h4>Extra Cheese Pizza</h4>
+                      <p>Time: 15-30 Minuites | Serves: 1</p>
+                      <span>$25.50 <del>$35.50</del></span>
+                      <button class="mt-4 main-btn">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                  <div class="card">
+                    <img src="mojito.jpg" class="img-fluid">
+                    <div class="pt-3">
+                      <h4>Virgin Mojito</h4>
+                      <p>Time: 15-30 Minuites | Serves: 1</p>
+                      <span>$12.50 <del>$14.50</del></span>
+                      <button class="mt-4 main-btn">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                  <div class="card">
+                    <img src="cupcake.jpg" class="img-fluid">
+                    <div class="pt-3">
+                      <h4>Strawberry Cup Cake</h4>
+                      <p>Time: 15-30 Minuites | Serves: 1</p>
+                      <span>$14.50 <del>$19.50</del></span>
+                      <button class="mt-4 main-btn">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </form> 
+          </div>
+        </div>
+      </section>
+
+
+      <!-- footer -->
+       <footer id="footer">
+        <div class="footer py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <a href="#" class="footer-link">Register</a>
+                <a href="#" class="footer-link">Form</a>
+                <a href="#" class="footer-link">Affiliate</a>
+                <a href="#" class="footer-link">FAQ</a>
+                <div class="footer-social pt-4 text-center">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </footer>
+
+
+
+</body>
+</html>
+
+
+
+

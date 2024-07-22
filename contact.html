@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-style.css">
+</head>
+<body>
+    <header>
+      <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-stream navbar-toggler-icon"></i>
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:3000/menu.html">Explore Foods</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#login">Log In</a>
+                  </li>
+                  <li><button class="main-btn">Contact Us</button></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>    
+
+    <!-- top banner -->
+    <!-- <section id="home">
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <h1>Good food choice are good investment.</h1>
+                        <p>Welcome to our Website Hope you all get Best Experience on our Website.</p>
+                        <div class="mt-4">
+                            <button class="main-btn">Order Now <i class="fas fa-shopping-cart ps-3"></i></button>
+                            <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Order Now <i class="fas fa-angle-right ps-3"></i></button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="story" class="py-5">
+        <div class="story-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text">
+                            <h2>When a men's stomach is full it makes no Difference whether he is rich or poor</h2>
+                            <p>In a world often divided by social and economic boundaries, the simple act of satisfying one's hunger stands as a profound equalizer. When a man's stomach is full, the distinctions of wealth and status fade away, leaving behind a universal truth: nourishment is a fundamental human need. Whether rich or poor, the contentment that comes from a hearty meal reminds us of our shared humanity and the basic comforts we all seek. At our establishment, we strive to provide delicious, fulfilling meals that bridge these divides, ensuring that everyone, regardless of their background, can experience the joy and satisfaction that good food brings. We believe in the power of a full stomach to unite us, making our differences seem insignificant in the face of such a simple, yet essential, pleasure.</p>
+                            <button class="main-btn mt-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Contact Us</h2>
+                    <form action="http://127.0.0.1:5500/index.html">
+                        <div class="mb-4">
+                            <label for="name" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="First Name">
+                        </div>
+                        <div class="mb-4">
+                            <label for="name" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Last Name">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="mb-5">
+                            <label for="subject" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Number">
+                        </div>
+                        <div class="mb-5">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="main-btn mt-3">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h2>Get in Touch</h2>
+                    <p>If you have any questions, feel free to reach out to us through the form or via the contact information provided below.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, Ambala, India</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@example.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+      <!-- footer -->
+       <footer id="footer">
+        <div class="footer py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <a href="#" class="footer-link">Register</a>
+                <a href="#" class="footer-link">Form</a>
+                <a href="#" class="footer-link">Affiliate</a>
+                <a href="#" class="footer-link">FAQ</a>
+                <div class="footer-social pt-4 text-center">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </footer>
+
+
+
+</body>
+</html>
